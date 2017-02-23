@@ -30,9 +30,9 @@ public class Employee
       return hireDay;
    }
 
-   public void raiseSalary(double byAbsoluteValue)
+   public void raiseSalary(double byDecimalValue)
    {
-      double raise = salary * byAbsoluteValue / 100;
+      double raise = salary * byDecimalValue / 100;
       salary += raise;
    }
 
